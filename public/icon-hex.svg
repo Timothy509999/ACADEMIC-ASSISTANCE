@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hex background -->
+  <polygon points="100,10 170,50 170,130 100,170 30,130 30,50" fill="#3D5A40"/>
+  <!-- Subtle inner hex ring -->
+  <polygon points="100,22 158,56 158,124 100,158 42,124 42,56" fill="none" stroke="rgba(248,250,247,0.15)" stroke-width="1.5"/>
+
+  <!-- Graduation cap board -->
+  <polygon points="100,52 140,68 100,84 60,68" fill="#F8FAF7"/>
+  <polygon points="100,60 140,68 100,76 60,68" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Cap stem -->
+  <rect x="95" y="70" width="10" height="30" rx="3" fill="#F8FAF7"/>
+
+  <!-- Tassel -->
+  <path d="M140 68 C155 68 157 80 153 94" stroke="#E8A043" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="152" cy="98" r="6" fill="#E8A043"/>
+
+  <!-- Center node -->
+  <circle cx="100" cy="68" r="7" fill="#E8A043"/>
+  <!-- Side nodes -->
+  <circle cx="78" cy="75" r="4" fill="rgba(248,250,247,0.5)"/>
+  <circle cx="122" cy="75" r="4" fill="rgba(248,250,247,0.5)"/>
+
+  <!-- Book at bottom -->
+  <rect x="72" y="108" width="56" height="32" rx="8" fill="#F8FAF7"/>
+  <line x1="82" y1="118" x2="100" y2="118" stroke="#3D5A40" stroke-width="2" stroke-linecap="round"/>
+  <line x1="82" y1="126" x2="98" y2="126" stroke="#3D5A40" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="112" cy="124" r="6" fill="#E8A043"/>
+</svg>
