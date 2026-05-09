@@ -24,7 +24,7 @@ export default function Home({
       <Navigation />
 
       <main className="relative">
-        <HeroSection theme={theme} setTheme={setTheme} />
+        <HeroSection />
         <PaymentSection />
         <AssignmentSection />
         <EcosystemSection />
